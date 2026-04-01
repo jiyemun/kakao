@@ -1,0 +1,65 @@
+<h2>화면 1: 송금 수신 화면</h2>
+<p class="subtitle">친구가 링크를 열었을 때 처음 보는 화면</p>
+
+<div class="mockup">
+  <div class="mockup-header">카카오톡 송금 수신 화면</div>
+  <div class="mockup-body" style="background:#FEE500; padding:0; overflow:hidden;">
+    <!-- KakaoTalk style transfer screen -->
+    <div style="background:#FEE500; font-family:-apple-system,BlinkMacSystemFont,'Malgun Gothic',sans-serif; max-width:380px; margin:0 auto; min-height:600px; display:flex; flex-direction:column;">
+
+      <!-- Status bar area -->
+      <div style="padding:12px 20px 0; display:flex; justify-content:space-between; align-items:center; font-size:13px; color:#3C1E1E;">
+        <span>9:41</span>
+        <span>📶 🔋</span>
+      </div>
+
+      <!-- Main content -->
+      <div style="flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center; padding:40px 30px;">
+
+        <!-- Profile circle -->
+        <div style="width:80px; height:80px; border-radius:50%; background:#F5D442; display:flex; align-items:center; justify-content:center; font-size:36px; margin-bottom:20px; box-shadow:0 2px 8px rgba(0,0,0,0.1);">
+          🧑
+        </div>
+
+        <!-- Sender name (from URL param) -->
+        <div style="font-size:16px; color:#3C1E1E; margin-bottom:8px; font-weight:500;">
+          홍길동님이
+        </div>
+
+        <!-- Amount -->
+        <div style="font-size:38px; font-weight:700; color:#3C1E1E; margin-bottom:6px;">
+          100,000,000원
+        </div>
+
+        <!-- Sub text -->
+        <div style="font-size:14px; color:#6B5C3E;">
+          송금했습니다
+        </div>
+
+        <!-- Date -->
+        <div style="font-size:12px; color:#9B8E6E; margin-top:16px;">
+          2026년 4월 1일 오전 9:41
+        </div>
+      </div>
+
+      <!-- Confirm button -->
+      <div style="padding:20px 30px 40px;">
+        <div style="background:#3C1E1E; color:#FEE500; text-align:center; padding:16px; border-radius:12px; font-size:17px; font-weight:600; cursor:pointer;">
+          확인
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div style="margin-top:24px;">
+  <h3>주요 요소</h3>
+  <ul style="color:#aaa; font-size:14px; line-height:1.8;">
+    <li>카카오 노란색 (#FEE500) 배경</li>
+    <li>프로필 아이콘 + <strong>보낸 사람 이름</strong> (URL 파라미터)</li>
+    <li><strong>금액</strong> 크게 표시 (URL 파라미터)</li>
+    <li>"송금했습니다" + 날짜</li>
+    <li><strong>"확인" 버튼</strong> → 누르면 reveal 화면으로 전환</li>
+  </ul>
+</div>

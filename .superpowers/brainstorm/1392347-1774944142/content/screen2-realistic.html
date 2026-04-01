@@ -1,0 +1,108 @@
+<h2>개선된 디자인: 더 리얼하게</h2>
+<p class="subtitle">실제 카카오페이 송금 알림에 가깝게 수정</p>
+
+<div class="split">
+  <div class="mockup">
+    <div class="mockup-header">화면 1: 송금 수신 (개선)</div>
+    <div class="mockup-body" style="background:#FFFFFF; padding:0; overflow:hidden;">
+      <div style="font-family:-apple-system,BlinkMacSystemFont,'Malgun Gothic','맑은 고딕',sans-serif; max-width:380px; margin:0 auto; min-height:580px; display:flex; flex-direction:column; background:#fff;">
+
+        <!-- Header -->
+        <div style="background:#FEE500; padding:14px 20px; display:flex; align-items:center; gap:10px;">
+          <span style="font-size:18px; color:#3C1E1E;">←</span>
+          <span style="font-size:16px; font-weight:600; color:#3C1E1E;">카카오페이 송금</span>
+        </div>
+
+        <!-- Content -->
+        <div style="flex:1; display:flex; flex-direction:column; align-items:center; padding:50px 30px 30px;">
+
+          <!-- Checkmark icon -->
+          <div style="width:64px; height:64px; border-radius:50%; background:#FEE500; display:flex; align-items:center; justify-content:center; font-size:30px; margin-bottom:24px;">
+            ✓
+          </div>
+
+          <!-- Amount -->
+          <div style="font-size:32px; font-weight:700; color:#111; margin-bottom:8px; letter-spacing:-0.5px;">
+            100,000,000<span style="font-size:20px; font-weight:500;">원</span>
+          </div>
+
+          <!-- Status -->
+          <div style="font-size:15px; color:#555; margin-bottom:32px;">
+            받기 완료
+          </div>
+
+          <!-- Details box -->
+          <div style="width:100%; background:#F7F7F7; border-radius:12px; padding:20px;">
+            <div style="display:flex; justify-content:space-between; margin-bottom:12px; font-size:14px;">
+              <span style="color:#888;">보낸 사람</span>
+              <span style="color:#333; font-weight:500;">홍길동</span>
+            </div>
+            <div style="display:flex; justify-content:space-between; margin-bottom:12px; font-size:14px;">
+              <span style="color:#888;">받은 시간</span>
+              <span style="color:#333;">2026.04.01 09:41</span>
+            </div>
+            <div style="display:flex; justify-content:space-between; font-size:14px;">
+              <span style="color:#888;">메시지</span>
+              <span style="color:#333;">용돈이야~ 🎁</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Button -->
+        <div style="padding:16px 20px 32px;">
+          <div style="background:#FEE500; color:#3C1E1E; text-align:center; padding:15px; border-radius:10px; font-size:16px; font-weight:600; cursor:pointer;">
+            확인
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="mockup">
+    <div class="mockup-header">화면 2: Reveal (만우절!)</div>
+    <div class="mockup-body" style="background:#111; padding:0; overflow:hidden;">
+      <div style="font-family:-apple-system,BlinkMacSystemFont,'Malgun Gothic',sans-serif; max-width:380px; margin:0 auto; min-height:580px; display:flex; flex-direction:column; align-items:center; justify-content:center; background:#111; text-align:center; padding:30px; position:relative;">
+
+        <!-- Confetti representation -->
+        <div style="position:absolute; top:0; left:0; right:0; bottom:0; overflow:hidden; opacity:0.6;">
+          <span style="position:absolute; top:10%; left:15%; font-size:24px;">🎊</span>
+          <span style="position:absolute; top:5%; right:20%; font-size:20px;">🎉</span>
+          <span style="position:absolute; top:20%; left:60%; font-size:18px;">✨</span>
+          <span style="position:absolute; top:15%; right:10%; font-size:22px;">🎊</span>
+          <span style="position:absolute; bottom:30%; left:10%; font-size:20px;">🎉</span>
+          <span style="position:absolute; bottom:20%; right:15%; font-size:18px;">✨</span>
+        </div>
+
+        <!-- Main reveal -->
+        <div style="position:relative; z-index:1;">
+          <div style="font-size:72px; margin-bottom:20px;">🤡</div>
+          <div style="font-size:28px; font-weight:800; color:#FEE500; margin-bottom:12px;">
+            만우절인데
+          </div>
+          <div style="font-size:36px; font-weight:800; color:#fff; margin-bottom:24px;">
+            그걸 또 속냐 ㅋㅋ
+          </div>
+          <div style="font-size:16px; color:#888; margin-bottom:32px;">
+            April Fools! 🤪
+          </div>
+          <div style="background:#FEE500; color:#3C1E1E; padding:14px 40px; border-radius:10px; font-size:15px; font-weight:600; display:inline-block;">
+            ㅋㅋㅋㅋㅋㅋ
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="margin-top:24px;">
+  <h3>개선 포인트</h3>
+  <ul style="color:#aaa; font-size:14px; line-height:1.8;">
+    <li>흰 배경 + 카카오페이 헤더 → 실제 앱과 유사</li>
+    <li>체크마크 아이콘 + "받기 완료" 상태 텍스트</li>
+    <li>보낸 사람 / 받은 시간 / 메시지 상세 정보 박스</li>
+    <li>Reveal: 어두운 배경 + 컨페티(canvas 애니메이션) + 큰 텍스트</li>
+    <li>URL 파라미터: <code>?name=홍길동&amount=100000000&msg=용돈이야~</code></li>
+  </ul>
+</div>
